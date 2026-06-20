@@ -12,7 +12,13 @@ python -m http.server 8765 --bind 127.0.0.1
 
 ## GitHub Pages
 
-This repo includes a GitHub Actions workflow that publishes the static site to GitHub Pages from `main`.
+This repo publishes the static site to GitHub Pages from the `main` branch root.
+
+Custom domain:
+
+```text
+malikakadouri.xyz
+```
 
 After signing in to GitHub CLI, publish with:
 
