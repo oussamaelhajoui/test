@@ -1,10 +1,14 @@
-# Malika Kaddouri Nador Dates
+# Malika Kaddouri Nador
 
-A static personal landing page for Malika Kaddouri, a Moroccan influencer in Nador looking for genuine adult dating connections.
+A static Arabic/Darija landing page for Malika Kaddouri in Nador, with a little French and direct WhatsApp contact.
 
 ## Local preview
 
-Open `index.html` in a browser, or serve the folder with any static server.
+Open `index.html` in a browser, or serve the folder with any static server:
+
+```powershell
+python -m http.server 8765 --bind 127.0.0.1
+```
 
 ## GitHub Pages
 
