@@ -20,4 +20,12 @@ After signing in to GitHub CLI, publish with:
 gh repo create malika-kaddouri-nador --public --source . --remote origin --push
 ```
 
+If GitHub CLI is not installed, create a public empty repository named `malika-kaddouri-nador`
+on GitHub, then run:
+
+```powershell
+git remote add origin https://github.com/oussamaelhajoui/malika-kaddouri-nador.git
+git push -u origin main
+```
+
 Then open the repository settings and enable GitHub Pages with **GitHub Actions** as the source if it is not enabled automatically.
